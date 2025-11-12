@@ -1,0 +1,38 @@
+{
+  "name": "bim-3d-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@xeokit/xeokit-sdk": "^2.6.0",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "^0.180.0"
+  },
+  "scripts": {
+    "dev": "set PORT=5000 && react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "analyze": "node analyze-dae.js public/test.dae",
+    "setup": "powershell -ExecutionPolicy Bypass -File ./setup.ps1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
