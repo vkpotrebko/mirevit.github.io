@@ -2,6 +2,7 @@
   "name": "bim-3d-viewer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/mirevit.github.io",
   "dependencies": {
     "@xeokit/xeokit-sdk": "^2.6.0",
     "react": "^18.2.0",
